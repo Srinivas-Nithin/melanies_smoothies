@@ -17,6 +17,7 @@ st.write(
 #st.write("You favorite fruit is:", option)
 name_on_order = st.text_input('Name on Smoothie:')
 st.write('The name on smoothie will be:', name_on_order)
+st.write('Here is your healthy food')
 
 cnx = st.connection("snowflake")
 session = cnx.session()
